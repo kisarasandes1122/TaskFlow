@@ -23,11 +23,11 @@ cd taskflow/backend
 ```
 mvn spring-boot:run
 ```
-Backend is running at: http://localhost:8080 🚀
+Backend is running at: http://localhost:8080 🚀 <br />
 
+*** 
 
-
-## 🌐 Frontend Setup (React)
+##  <br />🌐 Frontend Setup (React)
 ### 1️⃣ Install Node.js
 
 Ensure Node.js 18+ is installed. Check version:
@@ -47,5 +47,9 @@ npm run dev
 ```
 Frontend is running at: http://localhost:5173 🎨
 
+##  <br />‼ Important
 
-
+If the frontend isn't running on **http://localhost:5173** you have to manually allow the CORS Backend/src/main/java/com/taskflow/CorsConfig.java 
+```
+config.addAllowedOrigin("replace-your-frontend-url");
+```
