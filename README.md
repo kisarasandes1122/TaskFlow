@@ -53,3 +53,18 @@ If the frontend isn't running on **http://localhost:5173** you have to manually 
 ```
 config.addAllowedOrigin("replace-your-frontend-url");
 ```
+
+
+## <br />🚀 Features
+
+✅ Add tasks <br />✅ Mark tasks as completed <br />✅ Delete tasks <br />✅ Persistent storage using JSON <br />✅ REST API for task management
+
+
+## <br />📡 API Endpoints
+
+| Method | Endpoint | Description |
+| ------- | ------- | ------- |
+| GET | /api/tasks | Get all tasks |
+| POST | /api/tasks | Add a new task |
+| PUT | /api/tasks/{id} | Mark a task as completed |
+| DELETE | /api/tasks/{id} | Delete a task |
